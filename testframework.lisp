@@ -52,18 +52,6 @@
 ; You should have received a copy of the GNU General Public License
 ; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-(defpackage :cl-test-suite
-  (:use :common-lisp)
-  (:export :add-test-case
-           :run-tests
-           :asserteq
-           :assertne
-           :assertge
-           :assertgt
-           :assertle
-           :assertlt
-           :test-this-package))
-
 (in-package :cl-test-suite)
 
 (defmacro add-test-case (test-function 
