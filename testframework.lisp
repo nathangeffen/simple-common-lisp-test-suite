@@ -37,13 +37,7 @@
 ;
 ;    test-this-package - runs a series of tests to see that this test
 ;                    suite is working. The function should return 
-;                    (0 . 8).
-;
-; Use run-tests to run a test suite.
-; There are also several 
-;
-; Examples:
-; 
+;                    (0 . 8).;
 ;
 ; This program is free software: you can redistribute it and/or modify
 ; it under the terms of the GNU General Public License as published by

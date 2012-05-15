@@ -9,7 +9,7 @@ Email queries to nathangeffen at quackdown.info
 
 This has been tested using SBCL.
 
-Exported procedures:
+### Exported procedures:
 
 -  add-test-case - adds a test case to a test suite list, where each
    test case is a an entry in the list
@@ -36,10 +36,9 @@ Exported procedures:
 
     - assertlt - true if the first parameter is less than the second
       parameter.
-
-    - test-this-package - runs a series of tests to see that this test
-      suite is working. The function should return 
-      (0 . 8).
+- test-this-package - runs a series of tests to see that this test
+  suite is working. The function should return 
+  (0 . 8).
 
 Example:
 
@@ -51,8 +50,8 @@ Example:
 
     (run-tests test-suite)
     
-For more examples, see the code for the test-this-package function in 
-testframework.lisp.
+For more examples, see the code for the *test-this-package* function in 
+*testframework.lisp*.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
