@@ -9,7 +9,7 @@ Email queries to nathangeffen at quackdown.info
 
 This has been tested using SBCL.
 
-Exported procedures:
+### Exported procedures:
 
 -  add-test-case - adds a test case to a test suite list, where each
    test case is a an entry in the list
